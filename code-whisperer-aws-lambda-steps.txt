@@ -1,0 +1,51 @@
+Using Codewhisperer in AWS Lambda
+---------------------------------
+
+** Region must be us-east-1
+
+How to setup codewhisperer for aws lambda
+
+IAM->Users->Add Permission -> Attach Policies
+
+
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "CodeWhispererPermissions",
+      "Effect": "Allow",
+      "Action": ["codewhisperer:GenerateRecommendations"],
+      "Resource": "*"
+    }
+  ]
+}
+
+
+Lambda function to fetch cost for the treatment
+-----------------------------------------------
+
+Storage - AWS Dynamodb
+Lambda function to fetch the cost
+---------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
