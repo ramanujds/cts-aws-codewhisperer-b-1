@@ -1,0 +1,10 @@
+# write oath2 configuration for github
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+            github:
+                clientId: 2625ad6e046b0194e384
+                client-secret: 603d7b7c156f8a5ed931a876227bf294df37ffbf
+
